@@ -1,0 +1,369 @@
+/* .........................Navbar Components.......................... */
+.navbar {
+    width: 100%;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 14vh;
+    padding: 0 5em;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+}
+
+.line {
+    background-color: rgb(83, 73, 73);
+    border: 1px solid rgb(125, 124, 124);
+    height: 1.6em;
+}
+
+.logo {
+    display: flex;
+    gap: 0.6em;
+}
+
+.logo span {
+    font-size: 1.6em;
+    font-weight: 740;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width:1190px) {
+    .anotherClass {
+        display: flex;
+        justify-content: space-between;
+        z-index: 1000;
+    }
+
+    .nav_box {
+        position: absolute;
+        width: 100%;
+        height: 87vh;
+        z-index: 999;
+        box-sizing: border-box;
+    }
+
+    .side_slide {
+        margin: 0;
+        width: 60%;
+        height: 100%;
+        margin-left: 40%;
+        z-index: 998;
+        position: absolute;
+        background-color: black;
+        overflow-y: scroll;
+        color: white;
+        display: flex;
+        padding: 0em 2em;
+        padding-top: 15em;
+        padding-bottom: 3em;
+        justify-content: center;
+        gap: 1.5em;
+        flex-direction: column;
+    }
+
+    .vertical_line {
+        border: 1px solid white;
+    }
+
+    .phone_btn1 {
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 6.5vh;
+        width: 100%;
+        border-radius: 0.2em;
+        padding: 1.2em;
+        font-family: Helvetica, sans-serif;
+        font-size: 1.1em;
+        font-weight: 540;
+    }
+
+    .phone_btn2 {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        border: 2px solid white;
+        justify-content: center;
+        align-items: center;
+        height: 6.5vh;
+        padding: 1.2em;
+        width: 100%;
+        border-radius: 0.2em;
+        font-family: Helvetica, sans-serif;
+        font-size: 1.1em;
+    }
+
+    .phone_btn3 {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 6.5vh;
+        width: 100%;
+        border-radius: 0.2em;
+        font-family: Helvetica, sans-serif;
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .navbar {
+        width: 100%;
+        color: white;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 14vh;
+        padding: 0 3em;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        box-sizing: border-box;
+    }
+
+    .anotherClass {
+        display: flex;
+        justify-content: space-between;
+        z-index: 1000;
+    }
+
+    .nav_box {
+        position: absolute;
+        width: 100%;
+        height: 87vh;
+        z-index: 999;
+        box-sizing: border-box;
+    }
+
+    .side_slide {
+        margin: 0;
+        width: 60%;
+        height: 100%;
+        margin-left: 40%;
+        z-index: 998;
+        position: absolute;
+        background-color: black;
+        overflow-y: scroll;
+        color: white;
+        display: flex;
+        padding: 0em 2em;
+        padding-top: 15em;
+        padding-bottom: 3em;
+        justify-content: center;
+        gap: 1.5em;
+        flex-direction: column;
+    }
+
+    .vertical_line {
+        border: 1px solid white;
+    }
+
+    .phone_btn1 {
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* height: 6vh; */
+        width: 100%;
+        border-radius: 0.2em;
+        padding: 1.3em 0%;
+        font-family: Helvetica, sans-serif;
+        font-size: 1.1em;
+        font-weight: 540;
+    }
+
+    .phone_btn2 {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        border: 2px solid white;
+        justify-content: center;
+        align-items: center;
+        /* height: 6.5vh; */
+        width: 100%;
+        border-radius: 0.2em;
+        padding: 1.3em 0%;
+        font-family: Helvetica, sans-serif;
+        font-size: 1.1em;
+    }
+
+    .phone_btn3 {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 6.5vh;
+        width: 100%;
+        border-radius: 0.2em;
+        font-family: Helvetica, sans-serif;
+        font-size: 1.1em;
+    }
+
+}
+
+/* ................................First Link Components.................. */
+.main {
+    display: flex;
+    gap: 2em;
+    height: 8vh;
+    align-items: center;
+}
+
+.navlink {
+    text-decoration: none;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: 540;
+}
+
+.navlink:hover {
+    cursor: pointer;
+    color: rgb(172, 165, 165);
+}
+
+/* .......................................Select Menu Components................... */
+.select_menu {
+    background-color: transparent;
+    color: white;
+    position: relative;
+    height: 10vh;
+}
+
+.select_header {
+    display: flex;
+    gap: 0.4em;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.select_header p {
+    font-family: Helvetica, sans-serif;
+    font-weight: 540;
+}
+
+.select_header:hover {
+    cursor: pointer;
+    color: rgb(172, 165, 165);
+}
+
+.select_options {
+    position: absolute;
+    background-color: black;
+    z-index: 1000;
+    height: 50vh;
+    width: 60vh;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.select_options p {
+    color: white;
+}
+
+.select_option {
+    text-decoration: none;
+    display: flex;
+    gap: 0.9em;
+}
+
+.select_options img {
+    width: 30vh;
+    height: 22vh;
+}
+
+.selectlink {
+    display: flex;
+    gap: 0.4em;
+    width: 11em;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.selectlink p {
+    font-size: 1.4em;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+.selectlink:hover p {
+    color: red;
+}
+
+.selectlink:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    color: white;
+}
+
+/* ................................Buttons Components......................... */
+.btn_box {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 1.8em;
+    font-family: Helvetica, sans-serif;
+}
+
+.btn1 {
+    height: 2.3em;
+    width: 3.4em;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn1:hover {
+    color: rgb(172, 165, 165);
+}
+
+.btn2 {
+    height: 2.3em;
+    font-size: 1em;
+    width: 7em;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-radius: 0.1em;
+    padding: 0.5em;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Helvetica, sans-serif;
+}
+
+.btn3 {
+    height: 2.3em;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 1em;
+    width: 7em;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.1em;
+    padding: 0.5em;
+}

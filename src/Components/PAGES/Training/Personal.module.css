@@ -1,0 +1,679 @@
+.main {
+    width: 100%;
+}
+
+.line {
+    margin-top: 6.4em;
+    background-color: aliceblue;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 3px;
+}
+
+.line::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: red;
+    animation: fill 23s infinite;
+}
+
+@keyframes fill {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.video_div {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.heading_div {
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.heading {
+    font-size: 5em;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    width: 39%;
+}
+
+.para {
+    font-size: 1.8em;
+    font-family: Gill Sans, sans-serif;
+}
+
+.btn {
+    background-color: white;
+    width: 18%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-family: Arial, sans-serif;
+}
+
+.box1 {
+    background-color: black;
+    height: 50vh;
+    display: flex;
+    gap: 7em;
+    color: white;
+    padding: 7em;
+}
+
+.box1_heading {
+    font-size: 3.7em;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+.box1_para {
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.4em;
+    /* border: 1px solid red; */
+    height: 9em;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width: 1300px) {
+    .main {
+        width: 100%;
+    }
+
+    .line {
+        margin-top: 5.6em;
+        background-color: aliceblue;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        height: 3px;
+    }
+
+    .line::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background-color: red;
+        animation: fill 23s infinite;
+    }
+
+    @keyframes fill {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 100%;
+        }
+    }
+
+    .video_div {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+
+    video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .heading_div {
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .heading {
+        font-size: 4em;
+        font-weight: 700;
+        font-family: Arial, sans-serif;
+        width: 39%;
+    }
+
+    .para {
+        font-size: 1.5em;
+        font-family: Gill Sans, sans-serif;
+    }
+
+    .btn {
+        background-color: white;
+        width: 18%;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+        font-size: 1.5em;
+        font-family: Arial, sans-serif;
+    }
+
+    .box1 {
+        background-color: black;
+        height: 55vh;
+        display: flex;
+        align-items: center;
+        gap: 7em;
+        color: white;
+        padding: 7em;
+        /* border: 2px solid blue; */
+    }
+
+    .box1_heading {
+        font-size: 3.7em;
+        font-family: Trebuchet MS, sans-serif;
+    }
+
+    .box1_para {
+        font-size: 1.2em;
+        display: flex;
+        flex-direction: column;
+        gap: 0.7em;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.4em;
+        /* border: 1px solid red; */
+        height: 9em;
+        font-family: sans-serif;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .video_div {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+
+    video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .heading_div {
+        position: absolute;
+        top: 12%;
+        left: 9%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .heading {
+        font-size: 3em;
+        font-weight: 700;
+        font-family: Arial, sans-serif;
+        width: 39%;
+    }
+
+    .para {
+        font-size: 1.5em;
+        font-family: Gill Sans, sans-serif;
+    }
+
+    .btn {
+        background-color: white;
+        width: 36%;
+        height: 9vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+        font-size: 1.5em;
+        font-family: Arial, sans-serif;
+    }
+
+}
+
+@media screen and (max-width:1170px) {
+    .box1 {
+        background-color: black;
+        height: 55vh;
+        display: flex;
+        align-items: center;
+        gap: 7em;
+        color: white;
+        padding: 5em;
+        /* border: 2px solid blue; */
+    }
+
+    .box1_heading {
+        font-size: 3em;
+        font-family: Trebuchet MS, sans-serif;
+    }
+
+    .box1_para {
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        gap: 0.7em;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.4em;
+        /* border: 1px solid red; */
+        height: 9em;
+        font-family: sans-serif;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .box1 {
+        background-color: black;
+        height: 55vh;
+        display: flex;
+        align-items: center;
+        gap: 2em;
+        color: white;
+        padding: 3em;
+        /* border: 2px solid blue; */
+    }
+
+    .box1_heading {
+        font-size: 2.7em;
+        font-family: Trebuchet MS, sans-serif;
+    }
+
+    .box1_para {
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        gap: 0.7em;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.4em;
+        /* border: 1px solid red; */
+        height: 9em;
+        font-family: sans-serif;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .box1 {
+        background-color: black;
+        height: 65vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+        color: white;
+        padding: 1.1em;
+        /* border: 2px solid blue; */
+    }
+
+    .box1_heading {
+        font-size: 2.4em;
+        font-family: Trebuchet MS, sans-serif;
+        text-align: center;
+    }
+
+    .box1_para {
+        font-size: 0.9em;
+        display: flex;
+        flex-direction: column;
+        gap: 0.7em;
+        justify-content: center;
+        text-align: start;
+        align-items: center;
+        line-height: 1.5em;
+        /* border: 1px solid red; */
+        height: 16em;
+        font-family: sans-serif;
+    }
+}
+
+/* ...........................Personal_Box Components.................... */
+
+.box2 {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.inner_box {
+    width: 80%;
+    display: flex;
+    gap: 2em;
+    /* border: 2px solid yellow; */
+}
+
+.accordin {
+    width: 45%;
+    /* border: 2px solid red; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+    padding: 1em;
+}
+
+.accordin_heading {
+    font-size: 2.5em;
+    font-family: Optima, sans-serif;
+}
+
+.accordin_box {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.accordion_item {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.accordin_title {
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 1.7em;
+}
+
+.accordin_line {
+    height: 1px;
+    background-color: rgb(83, 75, 75);
+    width: 80%;
+}
+
+.accordin_content {
+    font-family: monospace;
+    /* border: 1px solid red; */
+    height: 12em;
+    width: 75%;
+    color: rgb(158, 157, 157);
+    line-height: 1.3em;
+    font-size: 1.2em
+}
+
+.photo {
+    width: 48%;
+    /* border: 2px solid white; */
+    height: 99vh;
+}
+
+.photo img {
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width:1300px) {
+    .box2 {
+        padding-top: 1.2em;
+        height: 120vh;
+        width: 100%;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .inner_box {
+        width: 88%;
+        display: flex;
+        gap: 1.6em;
+        /* border: 2px solid yellow; */
+    }
+
+    .accordin {
+        width: 45%;
+        /* border: 2px solid red; */
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5em;
+        padding: 0.2em;
+    }
+
+    .accordin_heading {
+        font-size: 2.5em;
+        font-family: Optima, sans-serif;
+    }
+
+    .accordin_box {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .accordion_item {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+    }
+
+    .accordin_title {
+        font-family: Trebuchet MS, sans-serif;
+        font-size: 1.7em;
+    }
+
+    .accordin_line {
+        height: 1px;
+        background-color: rgb(83, 75, 75);
+        width: 87%;
+    }
+
+    .accordin_content {
+        font-family: monospace;
+        /* border: 1px solid red; */
+        height: 13em;
+        width: 90%;
+        color: rgb(158, 157, 157);
+        line-height: 1.3em;
+        font-size: 1.2em
+    }
+
+    .photo {
+        width: 48%;
+        /* border: 2px solid white; */
+        height: 110vh;
+    }
+
+    .photo img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .box2 {
+        padding-top: 1.6em;
+        height: 120vh;
+        width: 100%;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .inner_box {
+        width: 88%;
+        display: flex;
+        gap: 2em;
+        margin-bottom: 2em;
+        /* border: 2px solid yellow; */
+    }
+
+    .accordin {
+        width: 45%;
+        /* border: 2px solid red; */
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5em;
+        padding: 0.1em;
+    }
+
+    .accordin_heading {
+        font-size: 2.3em;
+        font-family: Optima, sans-serif;
+    }
+
+    .accordin_box {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .accordion_item {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+    }
+
+    .accordin_title {
+        font-family: Trebuchet MS, sans-serif;
+        font-size: 1.5em;
+    }
+
+    .accordin_line {
+        height: 1px;
+        background-color: rgb(83, 75, 75);
+        width: 98%;
+    }
+
+    .accordin_content {
+        font-family: monospace;
+        /* border: 1px solid red; */
+        height: 14em;
+        width: 96%;
+        color: rgb(158, 157, 157);
+        line-height: 1.3em;
+        font-size: 1em
+    }
+
+    .photo {
+        width: 55%;
+        /* border: 2px solid white; */
+        height: 110vh;
+    }
+
+    .photo img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .box2 {
+        padding-top: 1.1em;
+        height: 145vh;
+        width: 100%;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .inner_box {
+        width: 88%;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        /* border: 2px solid yellow; */
+    }
+
+    .accordin {
+        width: 100%;
+        /* border: 2px solid red; */
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5em;
+        padding: 0.1em;
+    }
+
+    .accordin_heading {
+        font-size: 2.3em;
+        font-family: Optima, sans-serif;
+    }
+
+    .accordin_box {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .accordion_item {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+    }
+
+    .accordin_title {
+        font-family: Trebuchet MS, sans-serif;
+        font-size: 1.5em;
+    }
+
+    .accordin_line {
+        height: 1px;
+        background-color: rgb(83, 75, 75);
+        width: 98%;
+    }
+
+    .accordin_content {
+        font-family: monospace;
+        /* border: 1px solid red; */
+        height: 11em;
+        width: 96%;
+        color: rgb(158, 157, 157);
+        line-height: 1.3em;
+        font-size: 1em
+    }
+
+    .photo {
+        width: 100%;
+        /* border: 2px solid white; */
+        height: 40vh;
+        
+    }
+
+    .photo img {
+        height: 100%;
+        width: 100%;
+    }
+}

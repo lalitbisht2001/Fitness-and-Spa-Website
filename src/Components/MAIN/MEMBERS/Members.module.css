@@ -1,0 +1,157 @@
+.member {
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 0%;
+    position: relative;
+}
+
+.member .swimming_img {
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    position: absolute;
+    top: 9em;
+    left: 8em;
+    height: 49%;
+    background-color: white;
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 2.4em;
+}
+
+.heading {
+    font-size: 2.4em;
+    font-family: Arial, sans-serif;
+}
+
+.para {
+    font-size: 1.3em;
+    line-height: 1.2em;
+    color: rgb(50, 49, 49);
+    font-family: Gill Sans, sans-serif;
+}
+
+.btn {
+    text-decoration: underline;
+    font-size: 1.3em;
+    color: black;
+    font-family: Andale Mono, monospace;
+    cursor: pointer;
+    transition: color 0.3s ease, text-decoration-color 0.3s ease;
+}
+
+.btn:hover {
+    color: rgb(75, 75, 75);
+}
+
+
+@media screen and (max-width : 1160px) {
+    .member {
+        height: 100vh;
+        width: 100%;
+        /* border: 1px solid red; */
+        margin: 0%;
+        position: relative;
+    }
+    
+    .member .swimming_img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .box {
+        position: absolute;
+        top: 8em;
+        left: 3em;
+        height: 47%;
+        background-color: white;
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.3em;
+        padding: 1.7em;
+    }
+    
+    .heading {
+        font-size: 1.8em;
+        font-family: Arial, sans-serif;
+    }
+    
+    .para {
+        font-size: 1.1em;
+        line-height: 1.2em;
+        color: rgb(50, 49, 49);
+        font-family: Gill Sans, sans-serif;
+    }
+    
+    .btn {
+        text-decoration: underline;
+        font-size: 1.1em;
+        color: black;
+        font-family: Andale Mono, monospace;
+        cursor: pointer;
+        transition: color 0.3s ease, text-decoration-color 0.3s ease;
+    }
+    
+    .btn:hover {
+        color: rgb(75, 75, 75);
+    }
+}
+
+@media screen and (max-width:550px) {
+    .member {
+        height: 100vh;
+        width: 100%;
+        /* border: 1px solid red; */
+        margin: 0%;
+        position: relative;
+    }
+    
+    .member .swimming_img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .box {
+        position: absolute;
+        top: 8em;
+        left: 3em;
+        height: 51%;
+        background-color: white;
+        width: 59%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.3em;
+        padding: 1.7em;
+    }
+    
+    .heading {
+        font-size: 1.8em;
+        font-family: Arial, sans-serif;
+    }
+    
+    .para {
+        font-size: 1.1em;
+        line-height: 1.4em;
+        color: rgb(50, 49, 49);
+        font-family: Gill Sans, sans-serif;
+    }
+    
+    .btn {
+        text-decoration: underline;
+        font-size: 1.1em;
+        color: black;
+        font-family: Andale Mono, monospace;
+        cursor: pointer;
+        transition: color 0.3s ease, text-decoration-color 0.3s ease;
+    }
+    
+    .btn:hover {
+        color: rgb(75, 75, 75);
+    }
+}

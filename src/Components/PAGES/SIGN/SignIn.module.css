@@ -1,0 +1,72 @@
+.main {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-size: 3em;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2.3em;
+    font-family: sans-serif;
+}
+
+.box {
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    gap: 2.3em;
+    height: 75%;
+    width: 40%;
+    /* align-items: center; */
+    padding: 1em;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+label {
+    font-size: 1.1em;
+}
+
+input {
+    height: 3em;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(165, 164, 164);
+}
+
+.sign {
+    font-size: 2em;
+    text-align: center;
+    font-family: sans-serif;
+    padding-bottom: 1em;
+}
+
+.btn{
+    width: 30%;
+    height: 2em;
+    border: none;
+    font-size: 1.5em;
+}
